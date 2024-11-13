@@ -1,7 +1,4 @@
-[![](https://roar.doom.fm/v1/badge.svg?title=crates.io&text=acme-types&font_size=120&text_bg_colour=%23e33b26&text_colour=%23fff)](https://crates.io/crates/acme-types)
-[![](https://roar.doom.fm/v1/badge.svg?title=docs.rs&text=latest&font_size=120&text_bg_colour=%23e33b26&text_colour=%23fff)](https://docs.rs/crate/acme-types/latest)
-
-# acme-types-rs
+# acme-types
 
 This crate defines types for implementing ACME ([RFC 8555](https://datatracker.ietf.org/doc/html/rfc8555)) providers and clients.
 
