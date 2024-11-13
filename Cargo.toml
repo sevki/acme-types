@@ -12,7 +12,7 @@
 [package]
 edition = "2021"
 name = "acme-types"
-version = "0.1.1"
+version = "0.1.0"
 description = "Types for implementing ACME (RFC 8555) providers and clients"
 homepage = "https://git.doom.fm/citruspi/acme-types-rs"
 readme = "CRATE.md"
