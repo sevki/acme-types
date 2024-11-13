@@ -55,7 +55,7 @@ pub struct Order {
     /// Error encountered during domain validation, certificate issuance, etc.
     pub error: Option<String>,
     /// Authorizations which need to be completed in order to finalize the order
-    pub authorizations: Option<String>,
+    pub authorizations: Option<Vec<String>>,
     /// URL to finalize order
     pub finalize: String,
     /// URL to retrieve certificate issued by ACME provider
