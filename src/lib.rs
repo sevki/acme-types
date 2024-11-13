@@ -1,14 +1,2 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+/// Rust primitives for [RFC 8555](https://datatracker.ietf.org/doc/html/rfc8555) resources
+pub mod v2;
