@@ -8,7 +8,7 @@
 ///     .text()
 ///     .unwrap();
 ///
-/// let directory = ACME::Directory::from_str(&resp).unwrap();
+/// let directory = ACME::Directory::from(&resp).unwrap();
 ///
 /// println!("{:?}", directory);
 ///```
